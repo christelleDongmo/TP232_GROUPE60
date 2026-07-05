@@ -52,3 +52,8 @@ plt.boxplot(notes, vert=False)
 plt.title("Boite a moustaches des notes")
 plt.savefig("figures/boxplot_notes.png")
 plt.show()
+
+
+if __name__ == "__main__":
+    main()
+
