@@ -34,3 +34,6 @@ print("ordonnee a l'origine :", b)
 r_squared = correlation**2
 print("R^2 :", round(r_squared, 3))
 
+if __name__ == "__main__":
+    main()
+    
