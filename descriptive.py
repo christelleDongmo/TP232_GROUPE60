@@ -44,11 +44,11 @@ plt.title("Histogramme des notes")
 plt.xlabel("notes")
 plt.ylabel("nombres d'eleves")
 
-plt.savefig("data/histogramme_notes.png")
+plt.savefig("figures/histogramme_notes.png")
 plt.show()
 
 plt.figure(figsize=(6,3))
 plt.boxplot(notes, vert=False)
 plt.title("Boite a moustaches des notes")
-plt.savefig("data/boxplot_notes.png")
+plt.savefig("figures/boxplot_notes.png")
 plt.show()
